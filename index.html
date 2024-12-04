@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheel" href="signin.css">
+    <link  rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">"
+   
+</head>
+<body>
+    <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> coffee <i class="fas fa-mug-hot"></i> </a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="user-btn"></div>
+      
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart1.jpeg" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart2.jpeg" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart3.jpeg" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="cart4.jpeg" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="Enter your email" class="box">
+        <input type="password" placeholder="Enter your password" class="box">
+        <p>forget your password <a href="#">Click here</a></p>
+         <p>Dont have an account <a href="signin.html">Create now</a></p>
+        <input type="submit" value="login now" class="btn">
+      
+     </form>
+
+</header>
+<section class="home" id="home">
+ <div class="row">
+
+        <div class="content">
+            <h3>Espresso Epic<br>Fresh coffee in the morning</h3>
+            <a href="#" class="btn">buy one now</a>
+        </div>
+
+        <div class="image">
+            <img src="home-img-1.png" class="main-home-image" alt="">
+        </div>
+
+    </div>
+
+    <div class="image-slider">
+        <img src="home-img-1.png" alt="">
+        <img src="home-img-2.png" alt="">
+        <img src="home-img-3.png" alt="">
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about us <span>why choose us</span> </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">what's make our coffee special!</h3>
+            <p>The Uniqueness Of Our Coffee Lies In The Meticulous Selection Of Premium Beans Sourced From Diverse Regions Worldwide. We Handpick Each Variety For Its Distinctive Flavor Profile, Ensuring A Harmonious Blend That Tantalizes The Palate With Every Sip.</p>
+            <p>Our Roasting Process Is An Art Form, Meticulously Calibrated To Unlock The Full Spectrum Of Flavors Inherent In Each Bean. From The Rich, Earthy Notes Of South American Coffees To The Bright, Fruity Undertones Of African Beans, Our Blends Offer A Journey Of Taste Sensations.</p>
+            <p>With A Commitment To Sustainability, We Prioritize Fair Trade Practices And Environmentally Friendly Sourcing Methods, Ensuring That Every Cup Of Our Coffee Reflects Our Dedication To Quality And Integrity. Experience The Difference In Every Brew, And Elevate Your Coffee Ritual With Our Exceptional Blends.</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="about-icon-1.png" alt="">
+                    <h3>quality coffee</h3>
+                </div>
+                <div class="icons">
+                    <img src="about-icon-2.png" alt="">
+                    <h3>our branches</h3>
+                </div>
+                <div class="icons">
+                    <img src="about-icon-3.png" alt="">
+                    <h3>free delivery</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="menu" id="menu">
+
+    <h1 class="heading"> our menu <span>popular menu</span> </h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="menu-1.png" alt="">
+            <div class="content">
+                <h3>Morning Bliss Blend</h3>
+                <p>A smooth and balanced blend of Arabica beans, perfect for starting your day off right. Notes of chocolate and citrus with a hint of nuttiness.</p>
+                <span>$8.99</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="menu-2.png" alt="">
+            <div class="content">
+                <h3>Sunrise Symphony</h3>
+                <p>Wake up to the harmonious flavors of this medium roast coffee. Rich caramel undertones with a bright, fruity finish.</p>
+                <span>$9.99</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="menu-3.png" alt="">
+            <div class="content">
+                <h3>Espresso Elegance</h3>
+                <p> Indulge in the bold and intense flavor of our signature espresso blend. Dark roasted for a rich, full-bodied taste with hints of cocoa and toasted nuts.</p>
+                <span>$8.99</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="menu-4.png" alt="">
+            <div class="content">
+                <h3>Mocha Madness</h3>
+                <p>A decadent blend of Arabica beans and premium cocoa for an indulgent chocolate coffee experience. Silky smooth with a hint of sweetness. </p>
+                <span>$10.9</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="menu-5.png" alt="">
+            <div class="content">
+                <h3>Hazelnut Heaven</h3>
+                <p>Dive into the rich, nutty flavor of hazelnut with every sip of this aromatic coffee. Medium roast with a buttery smoothness and a hint of toasted hazelnut.</p>
+                <span>$11.9</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="menu-6.png" alt="">
+            <div class="content">
+                <h3>Coastal Breeze Blend</h3>
+                <p>Transport yourself to the seaside with every sip of this light roast coffee. Delicate floral notes complemented by a refreshing hint of sea salt.</p>
+                <span>$12.9</span>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> reviews <span>what people says</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="pic-1.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="pic-2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="pic-3.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-left"></i>
+                <i class="fas fa-quote-right"></i>
+                <img src="pic-4.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
+                <h3>john deo</h3>
+                <span>satisfied client</span>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737.6221882978507!2d-98.48650795000005!3d29.421653200000023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa57e6a56f%3A0xf08a9ad66f03e879!2sHenry+B.+Gonzalez+Convention+Center!5e0!3m2!1sen!2sus!4v1393884854786"  width="100%" height="450" frameborder="0" style="border:0"></iframe>
+</div>
+
+
+<section class="book" id="book">
+
+    <h1 class="heading"> booking <span>reserve a table</span> </h1>
+
+    <form action="">
+
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="number" placeholder="your number" class="box">
+
+        <textarea name="" placeholder="your message" class="box" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> india </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> USA </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> france </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> africa </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Japan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> book </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i>hellocoffee12@gmail.com  </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Kolkata, india </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="hellocoffee12@gmail.com"><i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>

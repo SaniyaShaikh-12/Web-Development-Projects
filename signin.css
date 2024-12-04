@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color:#443;
+    --border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    --border-radius-hover:4% 95% 6% 95%/95% 4% 92% 5%;
+    --border:.2rem solid var(--main-color);
+    --border-hover:.2rem dashed var(--main-color);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.signin .body {
+    background-color: #f2f2f2;
+  }
+  .signin{
+    background:url(book-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+}
+  .signin .container {
+    width:100%;
+    padding:1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    background:none;
+    text-transform: none;
+    color:var(--main-color);
+    
+  }
+  .signin .heading span h1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: var(--main-color);
+    font-size: 3rem;
+  }
+  
+    
+.signin.signin-form {
+    text-align: center;
+  }
+  
+   .signin.container img{
+    padding: 0;
+  
+  }
+  
+  .signin .container h3{
+    font-size: 30px;
+
+  }
+  .signin .form-group {
+    margin-bottom: 20px;
+    margin:0 auto 5rem auto;
+    max-width: 70rem;
+    border-radius: var(--border-radius-hover);
+    padding:3rem;
+    border:var(--border);
+  }
+  
+  .signin label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signin input[type="text"],
+  .signin input[type="password"] {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 6px;
+    font-size: 1.7rem;
+  }
+  .signin .btn{
+    display: inline-block;
+    padding:.8rem 2.5rem;
+    border-radius: var(--border-radius);
+    color:var(--main-color);
+    background: none;
+    border:var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.signin .btn:hover {
+      border-radius: var(--border-radius-hover);
+      border:var(--border-hover);
+  }
+ 
+  .signin .form-footer {
+    margin-top: 20px;
+  }
+  
+  .signin .form-footer p {
+    margin: 0;
+  }
+  
+  .signin .form-footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .signin .form-footer a:hover {
+    text-decoration: underline;
+  }
